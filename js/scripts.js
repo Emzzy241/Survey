@@ -1,5 +1,7 @@
 $(document).ready( function(){
-    $(".btn").click( function(){
+    $("#form").submit( function(event){
+        event.preventDefault();
 
+        $(".thank").show();
     });
 });
