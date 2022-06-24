@@ -7,7 +7,7 @@
 h2{
     text-align: center;
 }
-.thank{
+#success{
     text-align: center;
     color: green;
     display: none;

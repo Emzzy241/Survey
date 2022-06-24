@@ -1,7 +1,6 @@
 $(document).ready( function(){
-    $("#form").submit( function(event){
-        event.preventDefault();
-
-        $(".thank").show();
+    $("#applicant").submit( function(emma){
+        emma.preventDefault();
+        $("#success").show();
     });
-});
+ })
